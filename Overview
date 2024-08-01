@@ -1,0 +1,76 @@
+# Assignment-3 Excel Data Cleaning and Highlighting
+
+This repository contains an Excel file with various data cleaning and highlighting tasks. The tasks involve handling missing values, formatting data, and highlighting specific rows based on certain criteria.
+
+## Contents
+
+1. [Tasks Overview](#tasks-overview)
+2. [Steps to Complete the Assignment](#steps-to-complete-the-assignment)
+3. [Instructions for Each Task](#instructions-for-each-task)
+4. [Final Output](#final-output)
+5. [License](#license)
+
+## Tasks Overview
+
+The Excel assignment includes the following tasks:
+
+1. Fill missing values in the `Name` column by extracting the name from the `Email-id` column.
+2. Fill missing values in the `Age` column with the mean age.
+3. Clean and format the `Phone number` column to display as (+91-xxxxxxxxxx).
+4. Delete rows where both `Name` and `Email-Id` are missing.
+5. Highlight the top 10 employees with the highest salary.
+6. Fill missing `Email-Id` values with `support@unmessenger.com` where the `Name` is present.
+7. Correct misspelled department names in the `Department` column.
+8. Fill missing `Address` values with `Address not Available`.
+
+## Steps to Complete the Assignment
+
+1. **Load the Excel File**: Open the provided Excel file (`Assignment-3.xlsx`) using Microsoft Excel or any other compatible software.
+2. **Complete the Tasks**: Follow the instructions provided for each task to clean and format the data.
+3. **Save the File**: After completing all tasks, save the updated Excel file.
+
+## Instructions for Each Task
+
+### Task 1: Fill Missing Values in the `Name` Column
+
+- Extract the name from the `Email-id` column and fill the missing `Name` values.
+
+### Task 2: Fill Missing Values in the `Age` Column
+
+- Calculate the mean age of the `Age` column.
+- Fill the missing `Age` values with the calculated mean.
+
+### Task 3: Clean and Format the `Phone number` Column
+
+- Ensure the phone numbers are displayed in the format (+91-xxxxxxxxxx).
+
+### Task 4: Delete Rows with Missing `Name` and `Email-Id`
+
+- Identify rows where both `Name` and `Email-Id` are missing.
+- Delete these rows from the dataset.
+
+### Task 5: Highlight the Top 10 Employees with the Highest Salary
+
+- Identify the top 10 employees with the highest salary.
+- Highlight these rows in the dataset.
+
+### Task 6: Fill Missing `Email-Id` Values
+
+- Where the `Name` is present but the `Email-Id` is missing, fill the `Email-Id` with `support@unmessenger.com`.
+
+### Task 7: Correct Misspelled Department Names
+
+- Review the `Department` column for any misspelled department names.
+- Correct the misspelled names.
+
+### Task 8: Fill Missing `Address` Values
+
+- Fill missing `Address` values with `Address not Available`.
+
+## Final Output
+
+After completing all the tasks, the Excel file should be clean and formatted according to the specified requirements. Ensure all tasks are completed accurately and the data is consistent.
+
+## License
+
+This project is licensed under the MIT License.
